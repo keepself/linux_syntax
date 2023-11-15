@@ -1,0 +1,15 @@
+echo practice3 start
+if [ -d "mydir3" ]; then
+cd mydir3
+else
+mkdir mydir3
+cd mydir3
+fi
+for a in{1..100}
+do 
+    touch "file$a.txt"
+    echo "hello world from file1$a" >> file$a.txt"
+    
+
+    echo 
+
