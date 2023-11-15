@@ -12,7 +12,10 @@ file2.txt에는 Hello from file2 이라는 문구 입력
 echo "hello from file1 > file1.txt
 echo
 file1.txt 파일을 어쩔지 모르니, copy본을 하나 생성
-cp file1.txt file
-1_(file1_backup.txt)
+(file1_backup.txt)
+cp file1.txt file1_backup.txt
 -file2.txt파일은 이름을 file2_rename.txt 로 변경
+mv file2.txt file2_rename.txt
 -터미널창에 "script practice1 complete" 출력
+echo "script practice1 complete"
+#chmod 777 myscript.sh

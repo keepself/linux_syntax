@@ -48,3 +48,16 @@ mv test_dir changseon_dir/second_dir
 
 # head는 cat처럼 파일을 출력하는것, 상위 n개 조회
 # tail은 하위 n행 조회
+.은 형재 경로를 의미
+# 조건이 참일 때 실행할 명령
+if[조건];then
+# 첫 번째 조건이 거짓이고 다른 조건이 참일 때 실행할 명령
+elif[다른조건];then
+# 모든 조건이 거짓일 때 실행할 명령
+else
+파일찾을때 -f
+
+for문(반복문)
+# 반복할 명령
+for 변수 in 항목들;do
+done
